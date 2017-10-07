@@ -182,7 +182,8 @@ section.home1
 		position: relative;
 		float: left;
 		/* margin: 2% 0% 0% 0%; */
-		margin: 2% 0% 7% 0%;		
+		margin: 2% 0% 7% 0%;
+		padding: 0 4%;
 	}
 	
 section.home1 h3
