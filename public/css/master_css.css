@@ -108,13 +108,15 @@ section.title
 	
 section.title h2
 	{	
-		margin: 0% 0% 0% 14%;
+		/* margin: 0% 0% 0% 14%; */
+		margin: 0% 5% 0% 5%;		
 		padding: 6px 0px 0px 0px;
 	}
 	
 section.title h2 img
 	{
 		padding: 0% 0% 0% 0%;
+		width: 100%;
 	}
 	
 	
@@ -123,16 +125,23 @@ section.title h2 img
 nav.horizontalNAV
 	{
 		position: relative;
-		float: left;
-		margin: 0% 0% 0% 4%;
+		/* float: left; */
+		/* margin: 0% 0% 0% 4%; */
 		z-index: 3;
+	}
+
+nav.horizontalNAV ul 
+	{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 20px;
 	}
 
 nav.horizontalNAV li
 	{
 		position: relative;
-		float: left;
-		padding: 0px 130px 0px 130px;
+		/* float: left; */
+		/* padding: 0px 130px 0px 130px; */
 		
 		text-align: center;
 		font-family: 'New Rocker', 'Lucida Calligraphy', 'Apple Chancery', cursive;
@@ -172,12 +181,14 @@ section.home1
 	{
 		position: relative;
 		float: left;
-		margin: 2% 0% 0% 0%;
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% 0% 7% 0%;		
 	}
 	
 section.home1 h3
 	{
-		height: 700px;
+		/* height: 700px; */
+		height: auto;		
 		margin: 0% 0% 0% 0%;
 		padding: 0.1% 0.1% 0% 0.1%;
 		
@@ -200,13 +211,17 @@ section.home1 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;
 	}
 	
 div.video
 	{
-		float: left;
+		max-width: 600px;
+
+		/* float: left; */
 		clear: both;
-		margin: 7% 0% 0% 25.5%;
+		/* margin: 7% 0% 0% 25.5%; */
+		margin: auto;
 		padding: 0.1% 0.1% 0% 0.1%;
 		
 		text-align: center;
@@ -230,9 +245,18 @@ nav.galleryNAV
 	{
 		width: 100%;
 		position: relative;
-		float: left;
-		margin: 2% 0% 0% 35%;
+		/* float: left; */
+		/* margin: 2% 0% 0% 35%; */
 		z-index: 9999;
+	}
+
+nav.galleryNAV ul
+	{
+		width: 100%;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
 	}
 
 nav.galleryNAV li
@@ -268,10 +292,12 @@ nav.galleryNAV li a:hover
 
 section.gallery
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery h3
@@ -297,6 +323,7 @@ section.gallery h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;
 	}
 
 	
@@ -304,10 +331,12 @@ section.gallery h3 img
 
 section.gallery1
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery1 h3
@@ -333,6 +362,7 @@ section.gallery1 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;
 	}
 	
 	
@@ -340,10 +370,12 @@ section.gallery1 h3 img
 
 section.gallery2
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery2 h3
@@ -369,6 +401,7 @@ section.gallery2 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 	
 	
@@ -376,10 +409,12 @@ section.gallery2 h3 img
 
 section.gallery3
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery3 h3
@@ -405,6 +440,7 @@ section.gallery3 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 	
 	
@@ -412,10 +448,12 @@ section.gallery3 h3 img
 
 section.gallery4
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery4 h3
@@ -441,6 +479,7 @@ section.gallery4 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 	
 	
@@ -448,10 +487,12 @@ section.gallery4 h3 img
 
 section.gallery5
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery5 h3
@@ -477,6 +518,7 @@ section.gallery5 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 	
 	
@@ -484,10 +526,12 @@ section.gallery5 h3 img
 
 section.gallery6
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery6 h3
@@ -513,6 +557,7 @@ section.gallery6 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 	
 	
@@ -520,10 +565,12 @@ section.gallery6 h3 img
 
 section.gallery7
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery7 h3
@@ -549,6 +596,7 @@ section.gallery7 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 	
 	
@@ -556,10 +604,12 @@ section.gallery7 h3 img
 
 section.gallery8
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -5%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery8 h3
@@ -584,6 +634,7 @@ section.gallery8 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 	
 		
@@ -592,10 +643,12 @@ section.gallery8 h3 img
 
 section.gallery8a
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -4%; 
-		margin: 2% 1% 0% 1%;
+		/* right: -4%;  */
+		/* margin: 2% 1% 0% 1%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery8a h3
@@ -621,6 +674,7 @@ section.gallery8a h3
 section.gallery8a h3 img
 	{
 		display: block;
+		width: 100%;		
 		margin: 0% 0% 0% 0%;
 	}
 	
@@ -629,10 +683,12 @@ section.gallery8a h3 img
 
 section.gallery9
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -2%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -2%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery9 h3
@@ -657,6 +713,7 @@ section.gallery9 h3
 section.gallery9 h3 img
 	{
 		display: block;
+		width: 100%;		
 		margin: 0% 0% 0% 0%;
 	}
 	
@@ -665,10 +722,12 @@ section.gallery9 h3 img
 
 section.gallery10
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery10 h3
@@ -694,6 +753,7 @@ section.gallery10 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;		
 	}
 		
 	
@@ -701,10 +761,12 @@ section.gallery10 h3 img
 
 section.gallery11
 	{
-		float: left;
+		/* float: left; */
 		position: relative;
-		right: -8%; 
-		margin: 2% 0% 0% 0%;
+		/* right: -8%;  */
+		/* margin: 2% 0% 0% 0%; */
+		margin: 2% auto 0%;
+		padding: 0 4%;
 	}
 	
 section.gallery11 h3
@@ -731,6 +793,7 @@ section.gallery11 h3 img
 	{
 		display: block;
 		margin: 0% 0% 0% 0%;
+		width: 100%;
 	}
 	
 /*------------------------------------------------- Section Styles for the Bio page*/
@@ -773,16 +836,9 @@ section.bio1 div
 
 		overflow: hidden; 
 	}
-	
-section.bio1 div img
+
+section.bio1 .biopic
 	{
-		display: block;
-		margin: auto;
-		height: auto;
-		width: auto;
-		
-		border: 1px solid rgba(255, 255, 255, 0.2);
-		
 		-o-border-bottom-left-radius: 40px;
 		-moz-border-bottom-left-radius: 40px;
 		-webkit-border-bottom-left-radius: 40px;
@@ -794,6 +850,16 @@ section.bio1 div img
 		-webkit-border-bottom-right-radius: 40px;
 		-khtml-border-bottom-right-radius: 40px;
 		border-bottom-right-radius: 40px;
+	}
+	
+section.bio1 div img
+	{
+		display: block;
+		margin: auto;
+		height: auto;
+		width: auto;
+		
+		border: 1px solid rgba(255, 255, 255, 0.2);
 
 		overflow: hidden; 
 	}
@@ -1016,8 +1082,9 @@ footer
 	{	
 		position: relative;
 		clear: left;
-		float: left;
-		margin: 10% 0% 0% 30%;
+		/* float: left; */
+		/* margin: 10% 0% 0% 30%; */
+		margin: 10% auto 0;
 	}
 	
 footer address

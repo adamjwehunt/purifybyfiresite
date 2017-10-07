@@ -2,11 +2,24 @@
   "name": "purifybyfiresite",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "config.js",
+  "dependencies": {
+    "express": "^4.16.1",
+    "massive": "^2.6.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajwehunt/purifybyfiresite.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajwehunt/purifybyfiresite/issues"
+  },
+  "homepage": "https://github.com/ajwehunt/purifybyfiresite#readme"
 }
