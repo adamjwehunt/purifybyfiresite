@@ -1,0 +1,205 @@
+/*
+	PurifyByFire
+	&
+	M.D.C. Art
+
+	M.D.C. Art Print Style Defaults
+	Author: Matthew Cummings
+	Date:   12/15/2014
+
+	Filename:         print.css
+	Supporting Files: none
+*/
+
+/*--------------------------------------- Display page for print */
+
+header.title
+{
+	display:none;
+}
+
+nav
+{
+	display:none;
+}
+
+@media print 
+{
+	section.bio1
+	{
+
+		float: left;
+ 		position: relative;
+		display: block;
+	}
+	
+section.bio1 div
+	{
+		position: relative;
+		float: left;
+
+		height: 600px;
+		border: none;
+		display: block;
+	}
+	
+	
+section.bio1 h2
+	{
+		position: relative;
+		float: left;
+
+		letter-spacing: 2px;
+		color: rgba(255, 255, 255, 0.9);
+		font-size: 16px;
+		border-bottom: none;
+		display: block;
+	}
+	
+	
+section.bio1 ul li a i
+{
+	display:none;
+}
+	
+section.bio1 ul li a
+{
+	display:none;
+}
+	
+/*---------------------- right section*/
+	
+section.bio2
+	{	
+		position: relative;
+		display: block;
+		float: left;
+		clear: all;
+		height: 600px;
+		width: 700px;
+
+	}
+	
+section.bio2 h2
+	{
+		position: relative;
+		display: block;
+		float: left;
+
+		font-size: 16px;
+		letter-spacing: 1px;
+		color: black;
+	}
+	
+section.bio2 h2 img
+	{
+		position: relative;
+		display: block;
+		float: left;
+
+		border: none;
+	}
+	
+section.bio2 div
+	{
+		position: relative;
+		display: block;
+		float: left;
+
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		width: 650px;
+		
+		-o-column-count: 2;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		-khtml-column-count: 2;
+		column-count: 2;
+		
+		-o-column-width: 300px;
+		-moz-column-width: 300px;
+		-webkit-column-width: 300px;
+		-khtml-column-width: 300px;
+		column-width: 300px;
+		
+		-o-column-gap: 20px;
+		-moz-column-gap: 20px;
+		-webkit-column-gap: 20px;
+		-khtml-column-gap: 20px;
+		column-gap: 20px;
+		
+		-o-column-rule: 1px solid black;
+		-moz-column-rule: 1px solid black;
+		-webkit-column-rule: 1px solid black;
+		-khtml-column-rule: 1px solid black;
+		column-rule: 1px solid black;
+	}
+	
+section.bio2 div h3
+	{
+		position: relative;
+		display: block;
+		float: left;
+
+		font-size: 16px;
+		border-bottom: solid 1px black;
+	}
+	
+section.bio2 div ul li
+	{
+		position: relative;
+		display: block;
+		float: left;
+
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;
+	}
+	
+section.bio2 div p
+	{
+		position: relative;
+		display: block;
+		float: left;
+
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;
+	}
+	
+section.bio2 div a
+	{
+		position: relative;
+		display: block;
+		float: left;
+
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;
+		
+		border-bottom: solid 1px black);
+	}
+
+	
+section.title
+{
+	display:none;
+}
+
+div.form
+	
+{
+	display:none;
+}
+	
+
+	
+	
+footer
+{
+	display:block;
+	float:left;
+}
+
+}
+	
+
+	

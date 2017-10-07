@@ -1,0 +1,1044 @@
+/*
+	PurifyByFire
+	&
+	M.D.C. Art
+
+	M.D.C. Art Styles
+	Author: Matthew Cummings
+	Date:   12/15/2014
+
+	Filename:         master_css.css
+	Supporting Files: -jpeg:	photos/background1920px.jpg,
+*/
+
+/*------------------------------------------------------- Styles for the Site Body */
+
+
+body
+	{
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+
+		max-width: 1270px;
+		background: black;
+					
+		text-decoration: none;
+	}
+
+/*------------------------------------------------------- Styles for the Site Body */
+
+.container
+	{
+		position: relative;
+		width: 100%;
+
+		overflow:hidden;
+		background: black url(../photos/background1920px.jpg) top left repeat-y;
+		
+		border-left: 2px solid rgba(255, 255, 255, 0.3);
+		border-right: 2px solid rgba(255, 255, 255, 0.3);
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+	}
+	
+/*------------------------------------------------------- Styles for the Site Logo */
+
+header.logo
+	{
+		position: relative;
+		float: left;
+		margin: 0% 0% 0% 0%;
+		z-index: 2;
+	}
+header.logo h1
+	{
+		padding: 0% 0% 0% 0%;
+		
+		background: rgba(0, 0, 0, 0.2);
+		
+		border: 5px double rgba(255, 255, 255, 0.3);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+		-webkit-transition:width 4s, height 4s, background-color 4s, -webkit-transform 4s;
+		transition:width 4s, height 4s, background-color 4s, transform 4s;
+	}
+	
+header.logo h1:hover
+	{
+		background: rgba(0, 0, 0, 0.9);
+		
+		border: 5px double rgba(255, 255, 255, 0.3);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+		-webkit-transform:rotate(180deg);
+		transform:rotate(180deg);
+	}
+	
+/*------------------------------------------------------ Styles for the Site Title */
+	
+section.title
+	{
+		position: relative;
+		
+		padding: 0% 0% 0% 0%;
+		z-index: 1;
+		
+		background: rgba(188,198,204, 0.3);
+		
+		border-top: 5px double rgba(255, 255, 255, 0.3);
+		border-bottom: 5px double rgba(255, 255, 255, 0.3);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		-khtml-border-radius: 40px;
+		border-radius: 40px;
+	}
+	
+section.title h2
+	{	
+		margin: 0% 0% 0% 14%;
+		padding: 6px 0px 0px 0px;
+	}
+	
+section.title h2 img
+	{
+		padding: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------- Styles for the Site Horizontal Navigation List */
+
+nav.horizontalNAV
+	{
+		position: relative;
+		float: left;
+		margin: 0% 0% 0% 4%;
+		z-index: 3;
+	}
+
+nav.horizontalNAV li
+	{
+		position: relative;
+		float: left;
+		padding: 0px 130px 0px 130px;
+		
+		text-align: center;
+		font-family: 'New Rocker', 'Lucida Calligraphy', 'Apple Chancery', cursive;
+		font-size: 175%;
+	}
+	
+nav.horizontalNAV li a
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0px 13px 0px 13px;
+		
+		text-decoration: none;
+		letter-spacing: 3px;
+		line-height: 15px;
+		
+		color: rgba(255, 255, 255, 0.7);
+		
+		border-left: 2px solid rgba(255, 255, 255, 0.3);
+		border-right: 2px solid rgba(255, 255, 255, 0.3);
+
+		
+		
+	}
+	
+nav.horizontalNAV li a:hover
+	{
+		color: white;
+		
+		background: rgba(0, 0, 0, 0.4);
+		
+		-webkit-transition:background .7s ease-in-out;
+	}
+	
+/*------------------------------------------------ Section Styles for the Home Page*/
+	
+section.home1
+	{
+		position: relative;
+		float: left;
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.home1 h3
+	{
+		height: 700px;
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(188,198,204, 0.3);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+		overflow: hidden;
+	}
+section.home1 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+div.video
+	{
+		float: left;
+		clear: both;
+		margin: 7% 0% 0% 25.5%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+	}
+
+
+/*--------------------------------------------- Section Styles for the Gallery page*/
+
+nav.galleryNAV
+	{
+		width: 100%;
+		position: relative;
+		float: left;
+		margin: 2% 0% 0% 35%;
+		z-index: 9999;
+	}
+
+nav.galleryNAV li
+	{
+		position: relative;
+		float: left;
+		padding: 0% 1% 0% 0%;
+		margin: 0% 0% 0% 0%;
+		text-align: center;
+		font-family: 'New Rocker', 'Lucida Calligraphy', 'Apple Chancery', cursive;
+		font-size: 175%;
+	}
+	
+nav.galleryNAV li a
+	{
+		text-decoration: none;
+		letter-spacing: 3px;
+		line-height: 15px;
+		
+		color: rgba(255, 255, 255, 0.7);
+		
+		border: 2px solid rgba(255, 255, 255, 0.3);
+	}
+	
+nav.galleryNAV li a:hover
+	{
+		color: white;
+		
+		background: rgba(0, 0, 0, 0.4);
+		
+		-webkit-transition:background .7s ease-in-out;
+	}
+
+section.gallery
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+section.gallery h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+
+	
+/*--------------------------------------------- Section Styles for the Gallery1 page*/
+
+section.gallery1
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery1 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+section.gallery1 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery2 page*/
+
+section.gallery2
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery2 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+section.gallery2 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery3 page*/
+
+section.gallery3
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery3 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+section.gallery3 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery4 page*/
+
+section.gallery4
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery4 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+section.gallery4 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery5 page*/
+
+section.gallery5
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery5 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+section.gallery5 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery6 page*/
+
+section.gallery6
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery6 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+	}
+	
+section.gallery6 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery7 page*/
+
+section.gallery7
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery7 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+section.gallery7 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery8 page*/
+
+section.gallery8
+	{
+		float: left;
+		position: relative;
+		right: -5%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery8 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+	}
+section.gallery8 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+		
+	
+/*--------------------------------------------- Section Styles for the Gallery8 page*/
+
+section.gallery8a
+	{
+		float: left;
+		position: relative;
+		right: -4%; 
+		margin: 2% 1% 0% 1%;
+	}
+	
+section.gallery8a h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+	
+section.gallery8a h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery9 page*/
+
+section.gallery9
+	{
+		float: left;
+		position: relative;
+		right: -2%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery9 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+	}
+	
+section.gallery9 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	
+/*--------------------------------------------- Section Styles for the Gallery10 page*/
+
+section.gallery10
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery10 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+
+	}
+section.gallery10 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+		
+	
+/*--------------------------------------------- Section Styles for the Gallery11 page*/
+
+section.gallery11
+	{
+		float: left;
+		position: relative;
+		right: -8%; 
+		margin: 2% 0% 0% 0%;
+	}
+	
+section.gallery11 h3
+	{
+		margin: 0% 0% 0% 0%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+	
+section.gallery11 h3 img
+	{
+		display: block;
+		margin: 0% 0% 0% 0%;
+	}
+	
+/*------------------------------------------------- Section Styles for the Bio page*/
+/*---------------------- left section*/
+
+
+section.bio1
+	{
+		float: left;
+ 
+		position: relative;
+		margin: 6% 0% 0% 0%;
+	}
+	
+section.bio1 div
+	{
+		height: 600px;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-top-left-radius: 40px;
+		-moz-border-top-left-radius: 40px;
+		-webkit-border-top-left-radius: 40px;
+		border-top-left-radius: 40px;
+		
+		-o-border-bottom-left-radius: 40px;
+		-moz-border-bottom-left-radius: 40px;
+		-webkit-border-bottom-left-radius: 40px;
+		border-bottom-left-radius: 40px;
+		
+		-o-border-bottom-right-radius: 40px;
+		-moz-border-bottom-right-radius: 40px;
+		-webkit-border-bottom-right-radius: 40px;
+		border-bottom-right-radius: 40px;
+
+		overflow: hidden; 
+	}
+	
+section.bio1 div img
+	{
+		display: block;
+		margin: auto;
+		height: auto;
+		width: auto;
+		
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		
+		-o-border-bottom-left-radius: 40px;
+		-moz-border-bottom-left-radius: 40px;
+		-webkit-border-bottom-left-radius: 40px;
+		-khtml-border-bottom-left-radius: 40px;
+		border-bottom-left-radius: 40px;
+		
+		-o-border-bottom-right-radius: 40px;
+		-moz-border-bottom-right-radius: 40px;
+		-webkit-border-bottom-right-radius: 40px;
+		-khtml-border-bottom-right-radius: 40px;
+		border-bottom-right-radius: 40px;
+
+		overflow: hidden; 
+	}
+	
+section.bio1 h2
+	{
+		text-align: center;
+		letter-spacing: 2px;
+		word-spacing: 12px;
+		color: rgba(255, 255, 255, 0.9);
+		padding: 1%;
+		font-size: 25px;
+		border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+	}
+	
+section.bio1 ul li img
+	{
+		display: inline;
+		padding: 0px 0px 0px 0px;
+		margin: 1% 0% 0% 1%;
+		border: none;
+	}
+	
+section.bio1 ul li a i
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.7);
+		padding: 0px 0px 0px 0px;
+		font-size: 18px;
+	}
+	
+section.bio1 ul li a
+	{
+		text-decoration: none;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		color: rgba(255, 255, 255, 0.7);
+		padding: 0px 0px 0px 100px;
+	}
+	
+section.bio1 ul li a:hover
+	{
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		letter-spacing: 2px;
+		color: rgba(255, 255, 255, 0.9);
+		padding: 0px 0px 0px 75px;
+	}
+	
+/*---------------------- right section*/
+	
+section.bio2
+	{	
+		position: relative;
+		float: right;
+		margin: 6% 0% 0% 0%;
+		padding: 0.1% 1.5% 0% 0%;
+		height: 600px;
+		width: 700px;
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-top-right-radius: 40px;
+		-moz-border-top-right-radius: 40px;
+		-webkit-border-top-right-radius: 40px;
+		-khtml-border-top-right-radius: 40px;
+		border-top-right-radius: 40px;
+		
+		-o-border-bottom-left-radius: 40px;
+		-moz-border-bottom-left-radius: 40px;
+		-webkit-border-bottom-left-radius: 40px;
+		-khtml-border-bottom-left-radius: 40px;
+		border-bottom-left-radius: 40px;
+		
+		-o-border-bottom-right-radius: 40px;
+		-moz-border-bottom-right-radius: 40px;
+		-webkit-border-bottom-right-radius: 40px;
+		-khtml-border-bottom-right-radius: 40px;
+		border-bottom-right-radius: 40px;
+			
+		overflow: hidden; 
+	}
+	
+section.bio2 h2
+	{
+		text-align: center;
+		font-size: 26px;
+		letter-spacing: 1px;
+		color: rgba(255, 255, 255, 0.5);
+		padding: 10px;
+	}
+	
+section.bio2 h2 img
+	{
+		text-align: center;
+		margin: -2px;
+		border: solid 2px rgba(255, 255, 255, 0.2);
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		-khtml-border-radius: 40px;
+		border-radius: 40px;
+	}
+
+section.bio2 div 
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 24px;
+		padding: 10px 10px 10px 25px;
+		width: 650px;
+		
+		-o-column-count: 2;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		-khtml-column-count: 2;
+		column-count: 2;
+		
+		-o-column-width: 300px;
+		-moz-column-width: 300px;
+		-webkit-column-width: 300px;
+		-khtml-column-width: 300px;
+		column-width: 300px;
+		
+		-o-column-gap: 20px;
+		-moz-column-gap: 20px;
+		-webkit-column-gap: 20px;
+		-khtml-column-gap: 20px;
+		column-gap: 20px;
+		
+		-o-column-rule: 1px solid black;
+		-moz-column-rule: 1px solid black;
+		-webkit-column-rule: 1px solid black;
+		-khtml-column-rule: 1px solid black;
+		column-rule: 1px solid black;
+	}
+	
+section.bio2 div h3
+	{
+		text-align: center;
+		font-size: 26px;
+		padding: 10px;
+		border-bottom: solid 1px black;
+	}
+	
+section.bio2 div ul li
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		color: rgba(255, 255, 255, 0.7);
+		padding: 15px;
+	}
+	
+section.bio2 div p
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		color: rgba(255, 255, 255, 0.7);
+		padding: 7px;
+	}
+	
+section.bio2 div a
+	{
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		color: rgba(255, 255, 255, 0.5);
+		
+		border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+	}
+	
+section.bio2 div a:hover
+	{
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		color: rgba(255, 255, 255, 0.9);
+		
+		border-bottom: solid 1px rgba(255, 255, 255, 0.9);
+	}
+
+	
+/*---------------------- form section*/
+
+div.form
+	{
+		float: left;
+		clear: both;
+		margin: 5% 0% 0% 20%;
+		padding: 0.1% 0.1% 0% 0.1%;
+		
+		text-align: center;
+		color: rgba(255, 255, 255, 0.9);
+		
+		background: rgba(0, 0, 0, 0.2);
+		background: url(../photos/background1920px.jpg) top right repeat;
+		background-size: cover;
+		
+		border: 15px solid rgba(255, 255, 255, 0.1);
+		
+		-o-border-radius: 40px;
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		border-radius: 40px;
+		
+	}
+	
+div.form p
+	{
+		padding:0.5% 0.5% 0.5% 0.5%;
+	}
+
+	
+	
+/*---------------------------------------------------------- Styles for the Footer */
+
+footer
+	{	
+		position: relative;
+		clear: left;
+		float: left;
+		margin: 10% 0% 0% 30%;
+	}
+	
+footer address
+	{
+		color: white;
+		font-size: 80%;
+		font-style: normal;
+		padding: 10px 0px 10px 0px;
+		text-align: center;
+	}
+	
+footer address img
+	{
+		display: inline;
+	}
+
+
+	
+
+
+
+	
+	
+	
