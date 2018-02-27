@@ -143,23 +143,25 @@
 	</section>
 	
 	<div class="form">
-	  <form action="contact.php">
-	  <h2>
+	  <form method="POST" action="http://formspree.io/matthewdavidcummings@gmail.com">
+	  <!-- <h2>
 		E-mail
-	  </h2>
+	  </h2> -->
 		<fieldset>
 			<legend>Contact Form</legend>
-				<p>
+				<!-- <p>
 					<label>Name:</label>
 					<input  type = "text"
-							id = "name"
+							id = "message"
 							>
-				</p>
-				
+				</p> -->
+
 				<p>
 					<label>Email:</label>
-					<input  type = "text"
+					<input  type = "email"
 							id = "email"
+							name = "email"
+							placeholder=""
 							>
 				</p>
 				
@@ -167,15 +169,19 @@
 					<label>Message:</label>
 					<textarea 
 							id = "message"
+							name = "message"
 							rows = "3"
-							cols = "80" >
+							cols = "80" 
+							placeholder= ""
+							>
 					</textarea>
 				</p>
-				<p>
+				<input type="hidden" name="_next" value="index.html" />
+				<!-- <p>
 					<input type="reset" value="Reset" >
-				</p>
+				</p> -->
 				<p>
-					<input type="submit" value="Submit" >
+					<input type="submit" name="action" value="Submit" >
 				</p>
 		</fieldset>
 	  </form>
